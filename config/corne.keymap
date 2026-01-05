@@ -50,10 +50,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp GRAVE  &kp RA(Q)         &kp NUMBER_2  &kp NUMBER_3  &kp RA(R)  &kp RA(E)              &kp NUMBER_6   &kp PLUS        &kp MINUS       &kp LS(N9)       &kp KP_MULTIPLY  &kp DELETE
-&kp TAB    &kp RA(A)         &kp RA(S)     &kp RA(D)     &kp RA(F)  &kp HOME               &kp PAGE_UP    &kp UP_ARROW    &kp LEFT_ARROW  &kp RIGHT_ARROW  &kp KP_SLASH     &kp KP_MINUS
-&kp LCTRL  &kp RA(NUMBER_3)  &kp NUMBER_4  &kp N5        &kp RA(V)  &kp END                &kp PAGE_DOWN  &kp DOWN_ARROW  &kp C_AC_COPY   &kp C_AC_PASTE   &kp KP_MULTIPLY  &kp PLUS
-                                           &mo 3         &kp LSHFT  &mt RIGHT_ALT SPACE    &none          &kp RIGHT_ALT   &none
+&kp GRAVE  &kp RA(Q)         &kp NUMBER_2  &kp NUMBER_3  &kp RA(R)  &kp RA(E)        &kp NUMBER_6   &kp PLUS        &kp MINUS       &kp LS(N9)       &kp KP_MULTIPLY  &kp DELETE
+&kp TAB    &kp RA(A)         &kp RA(S)     &kp RA(D)     &kp RA(F)  &kp HOME         &kp PAGE_UP    &kp UP_ARROW    &kp LEFT_ARROW  &kp RIGHT_ARROW  &kp KP_SLASH     &kp KP_MINUS
+&kp LCTRL  &kp RA(NUMBER_3)  &kp NUMBER_4  &kp N5        &kp RA(V)  &kp END          &kp PAGE_DOWN  &kp DOWN_ARROW  &kp C_AC_COPY   &kp C_AC_PASTE   &kp KP_MULTIPLY  &kp PLUS
+                                           &mo 3         &kp LSHFT  &kp RA(SPACE)    &none          &kp RIGHT_ALT   &none
             >;
         };
 
