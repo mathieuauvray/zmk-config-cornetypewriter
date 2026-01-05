@@ -36,7 +36,7 @@
 
             bindings = <
 &kp TAB    &kp RA(NUMBER_2)  &kp RA(NUMBER_3)  &kp RA(NUMBER_4)  &kp RA(N5)         &kp RA(NUMBER_6)        &kp KP_NUMLOCK  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MULTIPLY  &kp KP_MINUS
-&kp LSHFT  &kp C_PREVIOUS    &kp C_NEXT        &kp C_PLAY        &kp C_VOLUME_UP    &kp C_BRIGHTNESS_INC    &kp COMMA       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_DIVIDE    &kp KP_PLUS
+&kp LSHFT  &kp C_PREVIOUS    &kp C_NEXT        &kp C_PLAY        &kp C_VOLUME_UP    &kp C_BRIGHTNESS_INC    &kp G           &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_DIVIDE    &kp KP_PLUS
 &kp LCTRL  &kp LGUI          &kp LS(TAB)       &kp TAB           &kp C_VOLUME_DOWN  &kp C_BRIGHTNESS_DEC    &kp KP_DOT      &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_0  &kp KP_EQUAL
                                                &none             &none              &none                   &kp ENTER       &kp BACKSPACE    &mo 3
             >;
