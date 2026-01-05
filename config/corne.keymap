@@ -35,10 +35,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &none           &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none              &none                   &kp KP_NUMLOCK  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MULTIPLY  &kp KP_MINUS
-&kp LSHFT  &kp C_PREVIOUS  &kp C_NEXT        &kp C_PLAY         &kp C_VOLUME_UP    &kp C_BRIGHTNESS_INC    &kp CAPSLOCK    &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_DIVIDE    &kp KP_PLUS
-&kp LCTRL  &kp LGUI        &kp LS(TAB)       &kp TAB            &kp C_VOLUME_DOWN  &kp C_BRIGHTNESS_DEC    &kp KP_DOT      &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_0  &kp KP_EQUAL
-                                             &none              &none              &none                   &kp ENTER       &kp BACKSPACE    &mo 3
+&kp TAB    &kp RA(NUMBER_2)  &kp RA(NUMBER_3)  &kp RA(NUMBER_4)  &kp RA(N5)         &kp RA(NUMBER_6)        &kp KP_NUMLOCK  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MULTIPLY  &kp KP_MINUS
+&kp LSHFT  &kp C_PREVIOUS    &kp C_NEXT        &kp C_PLAY        &kp C_VOLUME_UP    &kp C_BRIGHTNESS_INC    &kp COMMA       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_DIVIDE    &kp KP_PLUS
+&kp LCTRL  &kp LGUI          &kp LS(TAB)       &kp TAB           &kp C_VOLUME_DOWN  &kp C_BRIGHTNESS_DEC    &kp KP_DOT      &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_0  &kp KP_EQUAL
+                                               &none             &none              &none                   &kp ENTER       &kp BACKSPACE    &mo 3
             >;
         };
 
@@ -50,19 +50,19 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp GRAVE  &kp RA(Q)         &kp NUMBER_2  &kp HASH   &kp RA(R)  &kp RA(E)              &kp NUMBER_6   &kp PLUS        &kp MINUS       &kp LS(N9)       &kp KP_MULTIPLY  &kp DELETE
-&kp TAB    &kp RA(A)         &kp RA(S)     &kp RA(D)  &kp RA(F)  &kp HOME               &kp PAGE_UP    &kp UP_ARROW    &kp LEFT_ARROW  &kp RIGHT_ARROW  &kp KP_SLASH     &kp KP_MINUS
-&kp LCTRL  &kp RA(NUMBER_3)  &kp NUMBER_4  &kp N5     &kp RA(V)  &kp END                &kp PAGE_DOWN  &kp DOWN_ARROW  &kp C_AC_COPY   &kp C_AC_PASTE   &kp KP_MULTIPLY  &kp PLUS
-                                           &mo 3      &kp LSHFT  &mt RIGHT_ALT SPACE    &none          &kp RIGHT_ALT   &none
+&kp GRAVE  &kp RA(Q)         &kp NUMBER_2  &kp NUMBER_3  &kp RA(R)  &kp RA(E)              &kp NUMBER_6   &kp PLUS        &kp MINUS       &kp LS(N9)       &kp KP_MULTIPLY  &kp DELETE
+&kp TAB    &kp RA(A)         &kp RA(S)     &kp RA(D)     &kp RA(F)  &kp HOME               &kp PAGE_UP    &kp UP_ARROW    &kp LEFT_ARROW  &kp RIGHT_ARROW  &kp KP_SLASH     &kp KP_MINUS
+&kp LCTRL  &kp RA(NUMBER_3)  &kp NUMBER_4  &kp N5        &kp RA(V)  &kp END                &kp PAGE_DOWN  &kp DOWN_ARROW  &kp C_AC_COPY   &kp C_AC_PASTE   &kp KP_MULTIPLY  &kp PLUS
+                                           &mo 3         &kp LSHFT  &mt RIGHT_ALT SPACE    &none          &kp RIGHT_ALT   &none
             >;
         };
 
         layer_3 {
             bindings = <
-&kp F1          &kp F2         &kp F3         &kp F4         &kp F5         &kp F6           &kp F7  &kp F8                  &kp F9                      &kp F10    &kp F11  &kp F12
-&trans          &bt BT_SEL 4   &bt BT_SEL 3   &bt BT_SEL 2   &bt BT_SEL 1   &bt BT_SEL 0     &trans  &kp LC(LG(UP_ARROW))    &kp LS(LC(LG(DOWN_ARROW)))  &kp LG(I)  &trans   &trans
-&bt BT_CLR_ALL  &bt BT_DISC 4  &bt BT_DISC 3  &bt BT_DISC 2  &bt BT_DISC 1  &bt BT_DISC 0    &trans  &kp LC(LG(DOWN_ARROW))  &kp LS(LC(LG(DOWN_ARROW)))  &trans     &trans   &kp ESCAPE
-                                              &trans         &trans         &trans           &trans  &trans                  &trans
+&kp F1          &kp F2         &kp F3         &kp F4         &kp F5         &kp F6           &kp F7        &kp F8                  &kp F9                      &kp F10    &kp F11  &kp F12
+&trans          &bt BT_SEL 4   &bt BT_SEL 3   &bt BT_SEL 2   &bt BT_SEL 1   &bt BT_SEL 0     &kp CAPSLOCK  &kp LC(LG(UP_ARROW))    &kp LS(LC(LG(DOWN_ARROW)))  &kp LG(I)  &trans   &trans
+&bt BT_CLR_ALL  &bt BT_DISC 4  &bt BT_DISC 3  &bt BT_DISC 2  &bt BT_DISC 1  &bt BT_DISC 0    &trans        &kp LC(LG(DOWN_ARROW))  &kp LS(LC(LG(DOWN_ARROW)))  &trans     &trans   &kp ESCAPE
+                                              &trans         &trans         &trans           &trans        &trans                  &trans
             >;
         };
     };
